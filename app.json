@@ -1,7 +1,7 @@
 {
   "name": "Wokku Go Starter",
   "description": "Bare-bones Go HTTP server — deploy to Wokku in one click.",
-  "keywords": ["go", "golang", "wokku", "dokku"],
+  "keywords": ["go", "golang", "wokku"],
   "buildpacks": [
     { "url": "heroku/go" }
   ],
