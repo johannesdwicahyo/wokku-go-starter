@@ -1,1 +1,1 @@
-web: bin/wokku-go-starter
+web: ./out

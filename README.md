@@ -28,7 +28,7 @@ go get github.com/labstack/echo/v4       # echo
 
 ## How it deploys
 
-Wokku uses the [heroku-go buildpack](https://github.com/heroku/heroku-buildpack-go) to compile your module and place the binary at `bin/wokku-go-starter`. The `Procfile` starts it with the platform-assigned `$PORT`.
+Wokku builds the module with [Nixpacks](https://nixpacks.com), which compiles it to `./out`. The `Procfile` starts that binary with the platform-assigned `$PORT`.
 
 ## License
 
